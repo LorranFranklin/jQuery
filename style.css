@@ -24,6 +24,7 @@
     background-color: #c8d6e5;
     padding: 24px 0;
     text-align: center;
+    display: none;
   }
 
   form h2 {
@@ -45,4 +46,43 @@
 
   #btn-Cancelar {
     background-color: red;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  ul li {
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+    cursor: pointer;
+  }
+
+  ul li img {
+    width: 100%;
+  }
+
+  .overlay-img-link {
+    padding: 1rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all ease .6s;
+  }
+
+  .overlay-img-link a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  ul li:hover .overlay-img-link {
+    opacity: 1;
   }

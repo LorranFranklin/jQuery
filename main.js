@@ -1,7 +1,11 @@
 $(document).ready(function() {
   //usando jQuery para selecionar e adicionar eventos
   $('header button').click(function() {
-    alert('clicou no botão');
+    $('form').slideDown();
+  });
+
+  $('#btn-Cancelar').click(function() {
+    $('form').slideUp();
   });
   //usando apenas javaScript para selecionar e adicionar eventos
   //form.addEventListener('submit', function(event) {
