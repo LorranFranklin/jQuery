@@ -20,5 +20,7 @@
 ```
 ## Getting Started
 
-Ensure **[jQuery]** make sure jquery is imported correctly in your HTML file:
-<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+Ensure **[jQuery]** sure  imported correctly in your HTML file:
+```
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>`
+```
