@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+}
+
+  header {
+    background-color: #5f27cd;
+    padding: 1rem 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1rem solid #341f97;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+  header button {
+    margin-left: 1rem;
+  }
+
+  form {
+    background-color: #c8d6e5;
+    padding: 24px 0;
+    text-align: center;
+  }
+
+  form h2 {
+    margin-bottom: 1rem;
+  }
+
+  input, button {
+    padding: 6px;
+  }
+
+  button {
+    background-color: #009432;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #btn-Cancelar {
+    background-color: red;
+  }
