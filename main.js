@@ -5,8 +5,8 @@ $(document).ready(function() {
   });
   //usando apenas javaScript para selecionar e adicionar eventos
   //form.addEventListener('submit', function(event) {
-   // event.preventDefault();
-   // alert('clicou no botão');
+  //  event.preventDefault();
+  // alert('clicou no botão');
   //})
   
   //usando jQuery para selecionar e adicionar eventos
