@@ -4,13 +4,14 @@
 [![Generic badge](https://img.shields.io/badge/STATUS-IN_PROGRESS-yellow.svg)](https://shields.io/)
 
 ## About 
-```//usando apenas javaScript para selecionar e adicionar eventos
+```
+//usando apenas javaScript para selecionar e adicionar eventos
   form.addEventListener('submit', function(event) {
     event.preventDefault();
     alert('clicou no botão');
   })
 ```
-  ```
+```
   //usando jQuery para selecionar e adicionar eventos
   $('form').on('submit', function(event) {
     event.preventDefault();
